@@ -2,7 +2,7 @@ require 'spec_helper'
 
 module ProjectEuler
   describe Problem2 do
-    describe '.sum_multiples_of_3_or_5' do
+    describe '.sum_even_fibonaccis' do
       let(:input_upper_bound)   { 4_000_000 }
       let(:sum_even_fibonaccis) { 4613732 }
 
