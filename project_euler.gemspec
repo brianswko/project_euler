@@ -8,5 +8,6 @@ Gem::Specification.new do |s|
   s.files       = Dir["{lib}/**/*"]
 
   s.add_development_dependency 'pry'
+  s.add_development_dependency 'pry-byebug'
   s.add_development_dependency 'rspec'
 end
